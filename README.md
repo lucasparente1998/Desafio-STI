@@ -53,6 +53,6 @@ Para a intalação da biblioteca flask:
 pip install flask
 ```
 
-Para visualizar o que foi pedido pelo Desafio, execute no terminal o arquivo [Main.py].
+Para visualizar o que foi pedido pelo Desafio, execute no terminal o arquivo [Main.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/main.py).
 
 Para visualizar a interface gráfica desenvolvida, execute no teminal o arquivo [GUI.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/GUI.py), o mesmo criará um server para visualização.
