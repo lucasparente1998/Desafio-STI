@@ -4,7 +4,7 @@ from src.disciplina import Disciplina
 from src.nota import Nota
 
 #Lê o arquivo
-doc = pd.read_csv('./base_de_dados/notas.csv')
+doc = pd.read_csv('./dataBase/notas.csv')
 
 # Retorna lista de alunos
 def listaAluno():
