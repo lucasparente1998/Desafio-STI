@@ -1,5 +1,5 @@
 from src.leArquivo import listaAluno,listaDisciplina,listaNota,listaCurso
-from src.funcoes import calculaCr,calculaMediaCurso,imprimeCrAlunos,imprimeCrMedioCurso
+from src.funcoes import imprimeCrAlunos,imprimeCrMedioCurso
 
 #Criando as listas de alunos, disciplinas, notas e curso
 lista_aluno = listaAluno()
