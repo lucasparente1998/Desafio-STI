@@ -46,7 +46,7 @@ Para a instalação da biblioteca **Pandas**:
 ```
 pip install pandas
 ```
-Para a intalação da biblioteca **Flask**:
+Para a instalação da biblioteca **Flask**:
 
 
 ```
