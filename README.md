@@ -35,3 +35,24 @@ Após executar a sua aplicação, o sistema deve exibir uma saída similar a:
 - Concentre-se em desenvolver uma aplicação simples em console, tentando resolver o problema principal: o cálculo do CR dos alunos e dos cursos;
 - Testes automatizados e TDD darão pontos positivos;
 - Se for desenvolver uma GUI, dê preferência a um framework web, como rails, spring-boot, etc.
+
+### Resolução
+
+Neste projeto tratamos da resolução do Desafio apresentado.
+
+Foi utilizada a linguagem Python (3.7.9) e também as bibliotecas **Pandas**, para a leitura do arquivo csv e **Flask**, para a criação do FrameWork Web.
+
+Para a instalação da biblioteca pandas:
+```
+pip install pandas
+```
+Para a intalação da biblioteca flask:
+
+
+```
+pip install flask
+```
+
+Para visualizar o que foi pedido pelo Desafio, execute no terminal o arquivo [Main.py].
+
+Para visualizar a interface gráfica desenvolvida, execute no teminal o arquivo [GUI.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/GUI.py), o mesmo criará um server para visualização.
