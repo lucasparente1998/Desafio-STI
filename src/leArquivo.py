@@ -8,7 +8,7 @@ doc = pd.read_csv('./dataBase/notas.csv')
 
 # Retorna lista de alunos
 def listaAluno():
-	#Criando aluno        #Removendo matriculas repetidas
+	#Criando matriculas        #Removendo matriculas repetidas
 	matriculas = doc['MATRICULA'].drop_duplicates()
 	lista_aluno = []
 	for i in matriculas:
@@ -19,7 +19,7 @@ def listaAluno():
 
 # Retorna lista de disciplinas
 def listaDisciplina():
-	#Criando disciplina         #Removendo pelas disciplinas repetidas
+	#Criando disciplinas         #Removendo pelas disciplinas repetidas
 	disciplinas = doc.drop_duplicates(subset = ['COD_DISCIPLINA'])
 	lista_disciplina = []
 	for i,row in disciplinas.iterrows():
@@ -55,7 +55,7 @@ def listaNota(lista_aluno,lista_disciplina):
 		lista_notas.append(nota)
 	return lista_notas	
 	
-
+# Retorna lista de cursos
 def listaCurso():
 	cursos = doc['COD_CURSO'].drop_duplicates()
 	lista_curso = []
