@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Desafio 3</title>
+    <style>
+
+        .titulo{
+            display: flex;
+            justify-content: center;
+            background-color: #ADD8E6;
+            border:1.5px solid black;
+            border-radius: 4px;
+        }
+        .titulo>h1 {     
+            text-align: center;      
+        }
+
+        .tabela {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .tabelas {
+            display: grid;
+        }
+
+        .titulo_tabela {
+            font-size: 30px;
+        }
+
+        .cabecalho {
+            border: 1px solid black;
+            border-radius: 4px;
+            font-size: 20px;
+            background-color: #87CEFA;
+        }
+
+        .item {
+            border: 1px solid black;
+            border-radius: 4px;
+            text-align: center;
+            background-color: #E8E8E8;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="titulo">
+            <h1>Desafio 3 - STI</h1>
+        </div>
+        <div class="tabela">
+            <div class="tabelas">
+                <table>
+                    <thead>
+                        <h2 class="titulo_tabela">CR dos Alunos</h2>
+                        <tr>
+                            <th class="cabecalho">Matrícula</th>
+                            <th class="cabecalho">CR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for aluno in alunos %}
+                        <tr>
+                            <td class="item">{{ aluno[0] }}</td>
+                            <td class="item">{{ aluno[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            <div>
+                <h2 class="titulo_tabela">Média dos Cursos</h2>
+                <div class="tabelas">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="cabecalho">Curso</th>
+                                <th class="cabecalho">Média</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for curso in cursos %}
+                            <tr>
+                                <td class="item">{{ curso[0] }}</td>
+                                <td class="item">{{ curso[1] }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
