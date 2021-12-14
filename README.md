@@ -2,6 +2,27 @@
 
 Você precisa calcular o CR de alunos de uma universidade. Para isto será preciso ler de um [arquivo csv](datasets/notas.csv) a lista de notas dos alunos e, de acordo com as notas e os critérios da universidade, calcular o CR de todos os alunos. Ao final do processo, será preciso mostrar na tela o CR de todos os alunos e qual a média de CR dos cursos.
 
+### Resolução
+
+Neste projeto tratamos da resolução do Desafio apresentado.
+
+Foi utilizada a linguagem Python (3.7.9) e também as bibliotecas **Pandas**, para a leitura do arquivo csv e **Flask**, para a criação do FrameWork Web.
+
+Para a instalação da biblioteca **Pandas**:
+```
+pip install pandas
+```
+Para a instalação da biblioteca **Flask**:
+
+
+```
+pip install flask
+```
+
+Para visualizar o que foi pedido pelo Desafio, execute no terminal o arquivo [main.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/main.py).
+
+Para visualizar a interface gráfica desenvolvida, execute no teminal o arquivo [GUI.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/GUI.py), o mesmo criará um server para visualização.
+
 ### Regras
 * A nota do aluno vai de zero até 100;
 * Uma nota é associada a uma disciplina e a um código de curso;
@@ -36,23 +57,3 @@ Após executar a sua aplicação, o sistema deve exibir uma saída similar a:
 - Testes automatizados e TDD darão pontos positivos;
 - Se for desenvolver uma GUI, dê preferência a um framework web, como rails, spring-boot, etc.
 
-### Resolução
-
-Neste projeto tratamos da resolução do Desafio apresentado.
-
-Foi utilizada a linguagem Python (3.7.9) e também as bibliotecas **Pandas**, para a leitura do arquivo csv e **Flask**, para a criação do FrameWork Web.
-
-Para a instalação da biblioteca **Pandas**:
-```
-pip install pandas
-```
-Para a instalação da biblioteca **Flask**:
-
-
-```
-pip install flask
-```
-
-Para visualizar o que foi pedido pelo Desafio, execute no terminal o arquivo [main.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/main.py).
-
-Para visualizar a interface gráfica desenvolvida, execute no teminal o arquivo [GUI.py](https://github.com/lucasparente1998/Desafio-STI/blob/main/GUI.py), o mesmo criará um server para visualização.
