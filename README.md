@@ -42,11 +42,11 @@ Neste projeto tratamos da resolução do Desafio apresentado.
 
 Foi utilizada a linguagem Python (3.7.9) e também as bibliotecas **Pandas**, para a leitura do arquivo csv e **Flask**, para a criação do FrameWork Web.
 
-Para a instalação da biblioteca pandas:
+Para a instalação da biblioteca **Pandas**:
 ```
 pip install pandas
 ```
-Para a intalação da biblioteca flask:
+Para a intalação da biblioteca **Flask**:
 
 
 ```
